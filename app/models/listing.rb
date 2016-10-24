@@ -7,4 +7,5 @@ validates :price, numericality: {greater_than: 0}
 validates_attachment_presence :image
 
 belongs_to :user
+has_many :orders
 end
